@@ -8,7 +8,7 @@ import Project from './sections/project/Project';
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
         <Navbar/>
         <Header/>
         <About/>
@@ -16,7 +16,7 @@ function App() {
         <Contact/>
         <Footer/>
         <FloatingNav/>
-    </div>
+    </main>
   );
 }
 
