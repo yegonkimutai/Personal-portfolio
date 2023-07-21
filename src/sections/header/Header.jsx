@@ -16,8 +16,8 @@ function Header() {
          Collaborative team player with a keen eye for detail and a drive for continuous learning. Let's build the future together 😄 
         </p>
         <div className='header-cte'>
-          <a href='#contact' className='btn primary'>Let's Talk</a>
-          <a href='#project' className='btn light'>My work</a>
+          <a href='#contact' className='btn primary'>Let's Talk 👥</a>
+          <a href='#project' className='btn light'>My work 💻</a>
         </div>
         <div className="header-socials">
           {
