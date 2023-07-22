@@ -1,5 +1,6 @@
 import './project.css'
 import IMG from '../../assets/Image.jpg'
+import {AiOutlineGithub} from 'react-icons/ai'
 
 const data = [
   {
@@ -62,8 +63,8 @@ function Project() {
             </div>
             <h3>{title}</h3>
             <div className="project-cte">
-            <a href={github} className='btn' target='_blank'>GitHub</a>
-            <a href={demo} className='btn primary' target='_blank'>Live Demo</a>
+            <a href={github} className='btn' target='_blank'>GitHub <AiOutlineGithub/></a>
+            <a href={demo} className='btn primary' target='_blank'>Live Demo 🚀 </a>
             </div>
           </article>
            )
