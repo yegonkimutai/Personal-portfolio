@@ -1,11 +1,12 @@
-import './card.css'
+import './card.css';
+/* eslint-disable */
 
-function Card({children, className, onClick}) {
+function Card({ children, className, onClick }) {
   return (
     <article className={`card ${className}`} onClick={onClick}>
-        {children}
+      {children}
     </article>
-  )
+  );
 }
 
-export default Card
+export default Card;

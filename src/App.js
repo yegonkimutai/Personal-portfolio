@@ -9,13 +9,13 @@ import Skill from './sections/skills/Skill';
 function App() {
   return (
     <main className="App">
-        <Header/>
-        <Navbar/>
-        <About/>
-        <Skill/>
-        <Project/>
-        <Contact/>
-        <Footer/>
+      <Header />
+      <Navbar />
+      <About />
+      <Skill />
+      <Project />
+      <Contact />
+      <Footer />
     </main>
   );
 }
