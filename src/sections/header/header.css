@@ -1,6 +1,5 @@
 header {
-    margin-top: 5rem;
-    height: calc(100vh - 5rem);
+    height: 100vh;
     display: grid;
     place-items: center;
     background: var(--color-white);
@@ -19,7 +18,7 @@ header {
     height: 22rem;
     border-radius: 9rem 9rem 2rem 2rem;
     overflow: hidden;
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .header-cont p {

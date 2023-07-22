@@ -71,7 +71,6 @@ section > p {
 }
 
 a {
-    color: var(--color-white);
     transition: var(--transition);
 }
 
@@ -120,7 +119,7 @@ a {
 
 .btn.primary:hover {
     background: transparent;
-    border: var(--color-primary);
+    border-color: var(--color-primary);
     color: var(--color-primary);
 }
 

@@ -1,22 +1,26 @@
-import Logo from '../../assets/Logo.png'
-import data from './data'
-import {IoIosColorWand} from 'react-icons/io'
+import {AiOutlineHome} from 'react-icons/ai'
+import {AiOutlineUser} from 'react-icons/ai'
+import {BiBookBookmark} from 'react-icons/bi'
+import {MdOutlineDesignServices} from 'react-icons/md'
+import {MdConnectWithoutContact} from 'react-icons/md'
+import { useState } from 'react'
 import './navbar.css'
 
 function Navbar() {
+  const [activeNav, setActiveNav] = useState('#')
+
   return (
     <nav id='navbar'>
-      <div className='container nav-container'>
-        <a href='index.html' className='nav-logo'>
-          <img src={Logo} alt='Logo'/>
-        </a>
-        <ul className='nav-menu'>
-          {
-            data.map(item => <li key={item.id}><a href={item.link}>{item.title}</a></li>)
-          }
-        </ul>
-        <button className='nav-icon'><IoIosColorWand/></button>
-      </div>
+        <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
+          <AiOutlineHome/></a>
+        <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
+          <AiOutlineUser/></a>
+        <a href='#projects' onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}>
+          <BiBookBookmark/></a>
+        <a href='#skills' onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}>
+          <MdOutlineDesignServices/></a>
+        <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
+          <MdConnectWithoutContact/></a>
     </nav>
   )
 }

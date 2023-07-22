@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <section>Footer</section>
+    <section id='footer'>Footer</section>
   )
 }
 

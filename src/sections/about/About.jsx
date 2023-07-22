@@ -3,11 +3,12 @@ import CV from '../../assets/cv.docx'
 import { HiOutlineDownload } from 'react-icons/hi'
 import Card from '../../components/Card'
 import data from './data'
+import './about.css'
 
 function About() {
   return (
     <section id='about'>
-      <div className="container">
+      <div className="container abt-container">
       <div className="abt-left">
         <div className="abt-photo">
           <img src={AboutImg} alt='About Image'/>

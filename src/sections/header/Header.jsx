@@ -4,8 +4,12 @@ import './header.css'
 
 function Header() {
   return (
-    <header>
+    <header id='home'>
       <div className='container header-cont'>
+      <div className='header-cte'>
+          <a href='#contact' className='btn primary'>Let's Talk 👥</a>
+          <a href='#project' className='btn light'>My work 💻</a>
+        </div>
         <div className='header-prof'>
           <img src={HeaderImg} alt='Header Image'/>
         </div>
@@ -15,10 +19,6 @@ function Header() {
         Proficient in front-end and back-end technologies, I transform ideas into elegant, functional solutions.
          Collaborative team player with a keen eye for detail and a drive for continuous learning. Let's build the future together 😄 
         </p>
-        <div className='header-cte'>
-          <a href='#contact' className='btn primary'>Let's Talk 👥</a>
-          <a href='#project' className='btn light'>My work 💻</a>
-        </div>
         <div className="header-socials">
           {
             data.map(item => <a key={item.id} href={item.link}
