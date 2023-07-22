@@ -4,6 +4,7 @@ import Footer from './sections/footer/Footer';
 import Header from './sections/header/Header';
 import Navbar from './sections/navbar/Navbar';
 import Project from './sections/project/Project';
+import Skill from './sections/skills/Skill';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Header/>
         <Navbar/>
         <About/>
+        <Skill/>
         <Project/>
         <Contact/>
         <Footer/>
