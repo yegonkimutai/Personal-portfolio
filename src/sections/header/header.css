@@ -35,6 +35,7 @@ header {
 
 .header-cte a {
     padding: .5rem 2rem;
+    text-align: center;
 }
 
 .header-socials {
