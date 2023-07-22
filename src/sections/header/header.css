@@ -33,6 +33,10 @@ header {
     gap: 1.2rem;
 }
 
+.header-cte a {
+    padding: .5rem 2rem;
+}
+
 .header-socials {
     position: absolute;
     left: 0;

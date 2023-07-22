@@ -22,6 +22,10 @@
     gap: 1.5rem;
 }
 
+.abt-right a {
+    padding: .5rem 2rem;
+}
+
 .abt-card {
     text-align: center;
 }
