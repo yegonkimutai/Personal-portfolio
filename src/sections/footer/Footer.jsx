@@ -1,23 +1,24 @@
-import './footer.css'
+import './footer.css';
 import { AiOutlineGithub, AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai';
 
 function Footer() {
   return (
     <footer id="footer">
-      <a href="#" className='footer-logo'>YEGON</a>
-      
+      <a href="#home" className="footer-logo">YEGON</a>
+
       <ul className="permalinks">
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 
+      {/* eslint-disable */}
       <div className="footer-socials">
-        <a href="https://github.com/yegonkimutai"><AiOutlineGithub/></a>
-        <a href="www.linkedin.com/in/brian-yegon-kim05"><AiOutlineLinkedin/></a>
-        <a href="mailto:yegonkimutai.99@gmail.com"><AiOutlineMail/></a>
+        <a href="https://github.com/yegonkimutai"><AiOutlineGithub /></a>
+        <a href="www.linkedin.com/in/brian-yegon-kim05"><AiOutlineLinkedin /></a>
+        <a href="mailto:yegonkimutai.99@gmail.com"><AiOutlineMail /></a>
       </div>
 
       <div className="copyright">

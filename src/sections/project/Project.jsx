@@ -49,7 +49,7 @@ const data = [
 
 function Project() {
   return (
-    <section id="projects" className='proj'>
+    <section id="projects" className="proj">
       <h5>My Recent Works</h5>
       <h2>Projects</h2>
 
