@@ -1,8 +1,29 @@
-import React from 'react';
+import './footer.css'
+import { AiOutlineGithub, AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai';
 
 function Footer() {
   return (
-    <section id="footer">Footer</section>
+    <footer id="footer">
+      <a href="#" className='footer-logo'>YEGON</a>
+      
+      <ul className="permalinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div className="footer-socials">
+        <a href="https://github.com/yegonkimutai"><AiOutlineGithub/></a>
+        <a href="www.linkedin.com/in/brian-yegon-kim05"><AiOutlineLinkedin/></a>
+        <a href="mailto:yegonkimutai.99@gmail.com"><AiOutlineMail/></a>
+      </div>
+
+      <div className="copyright">
+        <small>&copy; Brian Yegon 2023</small>
+      </div>
+    </footer>
   );
 }
 

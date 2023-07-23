@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+  color: #fff;
 }
 
 .contact-options {
@@ -54,6 +55,10 @@ textarea {
 
 form button {
   padding: 1rem 1.5rem;
+}
+
+form button:hover {
+  transition: 0.5s;
 }
 
 @media (max-width: 1024px) {
