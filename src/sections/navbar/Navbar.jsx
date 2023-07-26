@@ -1,5 +1,5 @@
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll';
 import { BiBookBookmark } from 'react-icons/bi';
 import { MdOutlineDesignServices, MdConnectWithoutContact } from 'react-icons/md';
 
@@ -7,8 +7,8 @@ import { useState } from 'react';
 import './navbar.css';
 
 function Navbar() {
-  const [activeNav, setActiveNav] = useState('');
   /* eslint-disable */
+  const [activeNav, setActiveNav] = useState('');
 
   return (
     <nav id="navbar">

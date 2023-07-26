@@ -81,7 +81,10 @@ function Project() {
               </div>
               <h3>{title}</h3>
               <p>{desc}</p>
-              <h4>Stacks: {stack}</h4>
+              <h4>
+                Stacks:
+                {stack}
+              </h4>
               <div className="project-cte">
                 <a href={github} className="btn" target="_blank" rel="noreferrer">
                   GitHub
