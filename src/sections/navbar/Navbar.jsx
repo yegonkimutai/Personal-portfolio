@@ -1,5 +1,5 @@
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-
+import {Link} from 'react-scroll'
 import { BiBookBookmark } from 'react-icons/bi';
 import { MdOutlineDesignServices, MdConnectWithoutContact } from 'react-icons/md';
 
@@ -7,26 +7,35 @@ import { useState } from 'react';
 import './navbar.css';
 
 function Navbar() {
-  const [activeNav, setActiveNav] = useState('#');
+  const [activeNav, setActiveNav] = useState('');
   /* eslint-disable */
 
   return (
     <nav id="navbar">
-      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
+      <Link to='home' spy={true} smooth={true} offset={-100} duration={300}
+      className={activeNav === '#' ? 'active' : ''}>
         <AiOutlineHome />
-      </a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
+      </Link>
+
+      <Link to='about' spy={true} smooth={true} offset={-100} duration={500}
+      className={activeNav === '#about' ? 'active' : ''}>
         <AiOutlineUser />
-      </a>
-      <a href="#projects" onClick={() => setActiveNav('#projects')} className={activeNav === '#projects' ? 'active' : ''}>
+      </Link>
+
+      <Link to='projects' spy={true} smooth={true} offset={-100} duration={500}
+       className={activeNav === '#projects' ? 'active' : ''}>
         <BiBookBookmark />
-      </a>
-      <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}>
-        <MdOutlineDesignServices />
-      </a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
+      </Link>
+
+      <Link to='skills' spy={true} smooth={true} offset={-100} duration={500}
+      className={activeNav === '#skills' ? 'active' : ''}>
+         <MdOutlineDesignServices />
+      </Link>
+
+      <Link to='contact' spy={true} smooth={true} offset={-100} duration={500}
+       className={activeNav === '#contact' ? 'active' : ''}>
         <MdConnectWithoutContact />
-      </a>
+      </Link>
     </nav>
   );
 }
