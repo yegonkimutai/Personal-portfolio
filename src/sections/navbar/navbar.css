@@ -26,6 +26,6 @@ nav a:hover {
 }
 
 nav a.active {
-  background: var(--color-black);
   color: var(--color-white);
+  text-decoration: underline;
 }
