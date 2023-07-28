@@ -17,7 +17,6 @@ function Header() {
         <h3>Brian Yegon</h3>
         <p>
           Passionate Full-Stack Developer dedicated to crafting seamless digital experiences.
-          Proficient in front-end and back-end technologies, I transform ideas into elegant, functional solutions.
           Collaborative team player with a keen eye for detail and a drive for continuous learning. Let's build the future together 😄
         </p>
         <div className="header-socials">

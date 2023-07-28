@@ -33,10 +33,6 @@
   --transition: all 500ms ease;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Lumanosimo', cursive;
   font-size: 0.9rem;
