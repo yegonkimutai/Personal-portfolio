@@ -24,16 +24,15 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [React-capstone] <a name="about-project"></a>
+# 📖 [Personal-portfolio] <a name="about-project"></a>
 
-**[React-capstone]** is a project of creating a responsive web app using React and Redux and the Behance design to design the layout.
+**[Personal-portfolio]** is a project of creating a responsive personal portfolio using React.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 - React
-- Redux
 - Linters
 
 <details>
@@ -48,17 +47,13 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Use React to components]**
-- **[Use API to fetch data and display in the UI]**
-- **[Use navigation to create a 2 page app]**
+- **[Use navigation to go to different pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🎥 Video Explanation <a name="video-explanation"></a>
-Click <a href="https://www.loom.com/share/6c92dddc26e44031875abd0ad45c194c">here</a> for the video explanation about how the app works
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://currency-tracker-five.vercel.app/)
+- [Live Demo Link](https://famous-arithmetic-026627.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,7 +61,7 @@ Click <a href="https://www.loom.com/share/6c92dddc26e44031875abd0ad45c194c">here
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-This project is useful and important as it gives developers an experience of how to use React and Redux and APIs to create home and details page.
+This project is useful and important as it gives developers an experience of how to use React to create a personal website.
 
 To get a local copy up and running, follow these steps.
 
@@ -80,7 +75,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/yegonkimutai/React-capstone.git
+  git clone https://github.com/yegonkimutai/Personal-portfolio.git
 ```
 
 ### Install
@@ -88,7 +83,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd react-capstone
+  cd personal-portfolio
   yarn install
 ```
 
@@ -150,7 +145,6 @@ If you like this project please like and share. You can also reach out to my pla
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) on Behance.
 
 I would also like to thank my partners and reviewers of the code for helping make the site better.
 
