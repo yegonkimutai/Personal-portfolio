@@ -80,13 +80,13 @@ function Skill() {
             </article>
           </div>
         </div>
-        
+
         <div className="cv">
-      <a href={CV} download className="btn primary">
+          <a href={CV} download className="btn primary">
             Download CV
             <HiOutlineDownload />
-      </a>
-      </div>
+          </a>
+        </div>
       </div>
     </section>
   );

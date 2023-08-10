@@ -1,4 +1,4 @@
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineHome } from 'react-icons/ai';
 import { Link } from 'react-scroll';
 import { BiBookBookmark } from 'react-icons/bi';
 import { MdOutlineDesignServices, MdConnectWithoutContact } from 'react-icons/md';
