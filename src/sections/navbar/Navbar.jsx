@@ -17,11 +17,6 @@ function Navbar() {
         <AiOutlineHome />
       </Link>
 
-      <Link to='about' spy={true} smooth={true} offset={-50} duration={500}
-      className={activeNav === '#about' ? 'active' : ''}>
-        <AiOutlineUser />
-      </Link>
-
       <Link to='projects' spy={true} smooth={true} offset={-50} duration={500}
        className={activeNav === '#projects' ? 'active' : ''}>
         <BiBookBookmark />
