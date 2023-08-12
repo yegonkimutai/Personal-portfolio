@@ -53,7 +53,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://famous-arithmetic-026627.netlify.app/)
+- [Live Demo Link](https://deploy-preview-6--famous-arithmetic-026627.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
