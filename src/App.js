@@ -1,4 +1,3 @@
-import About from './sections/about/About';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 import Header from './sections/header/Header';
@@ -11,7 +10,6 @@ function App() {
     <main className="App">
       <Header />
       <Navbar />
-      <About />
       <Skill />
       <Project />
       <Contact />

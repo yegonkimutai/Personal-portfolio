@@ -1,6 +1,6 @@
 .skills-cont {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 2rem;
 }
 
@@ -38,8 +38,8 @@
 
 .content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
 }
 
 .ex-details {
@@ -52,19 +52,31 @@
   margin-top: 6px;
 }
 
+.cv {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
 @media (max-width: 1024px) {
   .skills-cont {
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .content {
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+  }
+
+  .cv {
+    margin: 0;
   }
 
   .skills-cont > div {
     width: 80%;
     padding: 2rem;
     margin: 0 auto;
-  }
-
-  .content {
-    padding: 1rem;
   }
 }
 
