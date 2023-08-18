@@ -138,7 +138,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please like and share. You can also reach out to my platform so we can have further discussions
+If you like this project please like and share. You can also reach out to my platform so we can have further discussions on more awesome features I can include in the site
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +146,7 @@ If you like this project please like and share. You can also reach out to my pla
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would also like to thank my partners and reviewers of the code for helping make the site better.
+I would like to thank my partners and reviewers of the code for helping make the site better.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
