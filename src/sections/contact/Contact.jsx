@@ -3,7 +3,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import { BsWhatsapp } from 'react-icons/bs';
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   const form = useRef();
@@ -11,8 +11,14 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_9ggkq5k', 'template_97zq07y', form.current, 'me8GcXWDvIzus9lE8');
-    e.target.reset();
+    emailjs.sendForm('service_nltl7gm', 'template_fsxpxkv', form.current, 'DMbJd6q03iyKE3cE7')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
   };
 
   return (
