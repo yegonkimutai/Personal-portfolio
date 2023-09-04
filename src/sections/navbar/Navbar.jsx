@@ -14,22 +14,30 @@ function Navbar() {
     <nav id="navbar">
       <Link to='home' spy={true} smooth={true} offset={-50} duration={500}
       className={activeNav === '#' ? 'active' : ''}>
-        <AiOutlineHome />
+         <div className="nav-cont">
+        <AiOutlineHome /><small>Home</small>
+        </div>
       </Link>
-
+      
       <Link to='projects' spy={true} smooth={true} offset={-50} duration={500}
        className={activeNav === '#projects' ? 'active' : ''}>
-        <BiBookBookmark />
+        <div className="nav-cont">
+        <BiBookBookmark /><small>Projects</small>
+        </div>
       </Link>
-
+      
       <Link to='skills' spy={true} smooth={true} offset={-50} duration={500}
       className={activeNav === '#skills' ? 'active' : ''}>
-         <MdOutlineDesignServices />
+        <div className="nav-cont">
+         <MdOutlineDesignServices /><small>Skills</small>
+         </div>
       </Link>
 
       <Link to='contact' spy={true} smooth={true} offset={-50} duration={500}
        className={activeNav === '#contact' ? 'active' : ''}>
-        <MdConnectWithoutContact />
+        <div className="nav-cont">
+        <MdConnectWithoutContact /><small>Contacts</small>
+        </div>
       </Link>
     </nav>
   );

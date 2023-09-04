@@ -11,6 +11,18 @@ nav {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
+  align-items: center;
+}
+
+.nav-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+small {
+  font-size: 0.8rem;
 }
 
 nav a {
@@ -27,5 +39,4 @@ nav a:hover {
 
 nav a.active {
   color: var(--color-white);
-  text-decoration: underline;
 }
