@@ -1,6 +1,6 @@
 import './contact.css';
 import { AiOutlineMail } from 'react-icons/ai';
-import { PiTelegramLogoLight } from 'react-icons/pi';
+import { AiOutlineLinkedin } from 'react-icons/ai';
 import { BsWhatsapp } from 'react-icons/bs';
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -17,7 +17,6 @@ function Contact() {
 
   return (
     <section id="contact" className="cont-main">
-      <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact-container">
@@ -28,9 +27,9 @@ function Contact() {
             <a href="mailto:yegonkimutai.99@gmail.com" target="_blank" rel="noreferrer">Send a message ✍️</a>
           </article>
           <article className="contact-option">
-            <PiTelegramLogoLight className="cont-icon" />
-            <h4>Telegram</h4>
-            <a href="https://api.telegram.com/send?phone+254798003353" target="_blank" rel="noreferrer">Send a message ✍️</a>
+            <AiOutlineLinkedin className="cont-icon" />
+            <h4>Linkedin</h4>
+            <a href="https://www.linkedin.com/in/brian-yegon-kim05/" target="_blank" rel="noreferrer">Send a message ✍️</a>
           </article>
           <article className="contact-option">
             <BsWhatsapp className="cont-icon" />

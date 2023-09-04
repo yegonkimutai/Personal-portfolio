@@ -24,7 +24,8 @@
   transition: var(--transition);
 }
 
-.skills-cont > div:hover {
+.fe-skills:hover,
+.be-skills:hover {
   background: transparent;
   border-color: var(--color-primary);
   cursor: default;

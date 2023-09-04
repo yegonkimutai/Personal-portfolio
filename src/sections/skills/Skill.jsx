@@ -83,7 +83,7 @@ function Skill() {
 
         <div className="cv">
           <a href={CV} download className="btn primary">
-            Download CV
+            Download Resume
             <HiOutlineDownload />
           </a>
         </div>

@@ -16,9 +16,9 @@ function Footer() {
 
       {/* eslint-disable */}
       <div className="footer-socials">
-        <a href="https://github.com/yegonkimutai"><AiOutlineGithub /></a>
-        <a href="www.linkedin.com/in/brian-yegon-kim05"><AiOutlineLinkedin /></a>
-        <a href="mailto:yegonkimutai.99@gmail.com"><AiOutlineMail /></a>
+        <a href="https://github.com/yegonkimutai" target="_blank"><AiOutlineGithub /></a>
+        <a href="https://www.linkedin.com/in/brian-yegon-kim05/" target="_blank"><AiOutlineLinkedin /></a>
+        <a href="mailto:yegonkimutai.99@gmail.com" target="_blank"><AiOutlineMail /></a>
       </div>
 
       <div className="copyright">
