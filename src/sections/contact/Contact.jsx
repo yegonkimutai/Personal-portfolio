@@ -1,6 +1,6 @@
 import './contact.css';
-import { AiOutlineMail } from 'react-icons/ai';
-import { AiOutlineLinkedin } from 'react-icons/ai';
+import { AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai';
+
 import { BsWhatsapp } from 'react-icons/bs';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -13,12 +13,12 @@ function Contact() {
 
     emailjs.sendForm('service_nltl7gm', 'template_fsxpxkv', form.current, 'DMbJd6q03iyKE3cE7')
       .then((result) => {
-          console.log(result.text);
+        console.log(result.text);
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
 
-      e.target.reset();
+    e.target.reset();
   };
 
   return (
