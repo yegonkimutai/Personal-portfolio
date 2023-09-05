@@ -27,6 +27,11 @@ header {
   margin-top: 1.5rem;
 }
 
+.header-prof img {
+  max-width: 100%;
+  height: auto;
+}
+
 .header-cont p {
   width: 35rem;
   text-align: center;
@@ -74,11 +79,6 @@ header {
     width: 19rem;
     max-width: 60%;
     max-height: 35vh;
-  }
-
-  .header-prof img {
-    max-width: 100%;
-    height: auto;
   }
 
   .header-cont h3 {

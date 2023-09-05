@@ -25,7 +25,7 @@
 
 .proj-item img {
   width: 100%;
-  overflow: hidden;
+  height: auto;
   border-radius: 1.5rem;
 }
 
