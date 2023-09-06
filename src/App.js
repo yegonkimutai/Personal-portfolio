@@ -8,8 +8,8 @@ import Skill from './sections/skills/Skill';
 function App() {
   return (
     <main className="App">
-      <Header />
       <Navbar />
+      <Header />
       <Project />
       <Skill />
       <Contact />
