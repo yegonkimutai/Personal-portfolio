@@ -7,6 +7,10 @@ function Header() {
   return (
     <header id="home">
       {/* eslint-disable */}
+      <div className="header-cte">
+          <a href="#contact" className="btn primary">Let's Talk 👥</a> 
+          <a href="#projects" className="btn light">My work 💻</a>
+        </div>
       <div className="container header-cont">
         <div className="header-prof">
           <img src={HeaderImg} alt="Header Image" />
@@ -43,10 +47,6 @@ function Header() {
               </a>
             ))
           }
-        </div>
-        <div className="header-cte">
-          <a href="#contact" className="btn primary">Let's Talk 👥</a> 
-          <a href="#projects" className="btn light">My work 💻</a>
         </div>
       </div>
     </header>

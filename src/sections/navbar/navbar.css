@@ -1,4 +1,4 @@
-/* nav {
+nav {
   background: rgba(0, 0, 0, 0.3);
   width: max-content;
   padding: 0.7rem 1.7rem;
@@ -39,14 +39,5 @@ nav a:hover {
 
 nav a.active {
   color: var(--color-white);
-} */
-.navbar {
-  position: sticky;
-  top: 0;
-  z-index: 2;
 }
 
-.nav-link,
-.navbar-brand {
-  cursor: pointer;
-}
