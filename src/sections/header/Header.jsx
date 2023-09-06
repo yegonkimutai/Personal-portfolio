@@ -6,23 +6,24 @@ import './header.css';
 function Header() {
   return (
     <header id="home">
+      {/* eslint-disable */}
       <div className="container header-cont">
         <div className="header-prof">
           <img src={HeaderImg} alt="Header Image" />
         </div>
         <h3>
           <Typewriter
-          options={{
-            autoStart:true,
-            loop: true,
-            delay: 40,
-            strings:[
-              'Full-Stack Developer',
-              'Programmer',
-              'Software Developer',
-              'Web Developer'
-            ],
-          }}
+            options={{
+              autoStart: true,
+              loop: true,
+              delay: 40,
+              strings: [
+                'Full-Stack Developer',
+                'Programmer',
+                'Software Developer',
+                'Web Developer',
+              ],
+            }}
           />
         </h3>
         <p>
@@ -44,7 +45,6 @@ function Header() {
           }
         </div>
         <div className="header-cte">
-          {/* eslint-disable */}
           <a href="#contact" className="btn primary">Let's Talk 👥</a> 
           <a href="#projects" className="btn light">My work 💻</a>
         </div>
