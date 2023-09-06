@@ -68,6 +68,7 @@ section > p {
 
 a {
   transition: var(--transition);
+  text-decoration: none;
 }
 
 /* General image style */

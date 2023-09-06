@@ -36,7 +36,8 @@ function Navbar() {
       <Link to='contact' spy={true} smooth={true} offset={-50} duration={500}
        className={activeNav === '#contact' ? 'active' : ''}>
         <div className="nav-cont">
-        <MdConnectWithoutContact /><small>Contacts</small>
+        <span><MdConnectWithoutContact /></span>
+        <small>Contacts</small>
         </div>
       </Link>
     </nav>
