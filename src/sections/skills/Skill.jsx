@@ -82,11 +82,11 @@ function Skill() {
         </div>
       </div>
       <div className="cv">
-          <a href={CV} download className="btn primary">
-            Download Resume
-            <HiOutlineDownload />
-          </a>
-        </div>
+        <a href={CV} download className="btn primary">
+          Download Resume
+          <HiOutlineDownload />
+        </a>
+      </div>
     </section>
   );
 }

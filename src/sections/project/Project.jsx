@@ -3,8 +3,8 @@ import { AiOutlineGithub } from 'react-icons/ai';
 import IMG1 from '../../assets/Img1.jpg';
 import IMG2 from '../../assets/Img2.png';
 import IMG3 from '../../assets/Img3.png';
-import IMG4 from '../../assets/Img4.png';
-import IMG5 from '../../assets/Img5.png';
+// import IMG4 from '../../assets/Img4.png';
+// import IMG5 from '../../assets/Img5.png';
 import IMG6 from '../../assets/Img6.png';
 
 const data = [
@@ -48,7 +48,8 @@ const data = [
   //   id: 5,
   //   image: IMG4,
   //   title: 'Movie App',
-  //   desc: 'It involves the use of API to fetch and interact with some movies data on the website. The user can also like and leave a comment on each movie',
+  //   desc: 'It involves the use of API to fetch and interact with some movies data on the website.
+  //  The user can also like and leave a comment on each movie',
   //   stack: 'JavaScript',
   //   github: 'https://github.com/seyioyemade/movie-application',
   //   demo: 'https://seyioyemade.github.io/movie-application/dist/',
@@ -57,7 +58,8 @@ const data = [
   //   id: 6,
   //   image: IMG5,
   //   title: 'Leader Board',
-  //   desc: 'The project involves making a leader-board as well as store and populate the scores using an API',
+  //   desc: 'The project involves making a leader-board as
+  //  well as store and populate the scores using an API',
   //   stack: 'JavaScript',
   //   github: 'https://github.com/yegonkimutai/leaderboard-project',
   //   demo: 'https://yegonkimutai.github.io/leaderboard-project/',

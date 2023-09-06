@@ -1,5 +1,5 @@
+import Typewriter from 'typewriter-effect';
 import HeaderImg from '../../assets/Header.jpg';
-import Typewriter from 'typewriter-effect'
 import data from './data';
 import './header.css';
 
