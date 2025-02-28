@@ -1,6 +1,6 @@
 import { BsPatchCheckFill } from 'react-icons/bs';
 import { HiOutlineDownload } from 'react-icons/hi';
-import CV from '../../assets/cv.docx';
+import CV from '../../assets/Brian-Yegon-Resume.pdf';
 import './skill.css';
 
 function Skill() {

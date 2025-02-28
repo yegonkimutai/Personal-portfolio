@@ -22,7 +22,7 @@ function Footer() {
       </div>
 
       <div className="copyright">
-        <small>&copy; Brian Yegon 2023</small>
+        <small>&copy; Brian Yegon 2025</small>
       </div>
     </footer>
   );
